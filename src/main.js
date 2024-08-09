@@ -11,4 +11,4 @@ function App() {
   // TODO: Add Router
 }
 
-App();
+document.addEventListener('DOMContentLoaded', App);
