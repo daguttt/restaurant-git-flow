@@ -5,6 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
+    "start:server": "json-server db.json --port 4000",
     "build": "vite build",
     "preview": "vite preview",
     "format:run": "prettier -w .",
