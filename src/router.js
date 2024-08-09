@@ -1,7 +1,7 @@
-import { GalleryPage } from './pages/gallery.page';
-import { LoginPage } from './pages/login.page';
-import { RegisterPage } from './pages/register.page';
-import { RootPage } from './pages/root.page';
+import { GalleryPage } from './pages/gallery/gallery.page';
+import { LoginPage } from './pages/login/login.page';
+import { RegisterPage } from './pages/register/register.page';
+import { RootPage } from './pages/root/root.page';
 
 const routes = {
   public: [
