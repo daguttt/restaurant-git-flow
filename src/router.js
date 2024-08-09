@@ -30,6 +30,7 @@ export function navigateTo(targetPath) {
 }
 
 export function Router() {
+  const currentPath = window.location.pathname;
   const publicRoute = routes.public.find((route) => route.path === currentPath);
 
   if (publicRoute) {
