@@ -1,3 +1,4 @@
+import { Router } from './router';
 import './style.css';
 
 function App() {
@@ -9,6 +10,7 @@ function App() {
   `;
 
   // TODO: Add Router
+  Router();
 }
 
 document.addEventListener('DOMContentLoaded', App);
